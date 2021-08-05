@@ -6,12 +6,13 @@
   <title>Weather Dashboard</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/60d535442e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<div class="jumbotron bg-dark text-white">
+<div class="jumbotron">
     <h2 class="text-center">Weather Dashboard<h2>
-        </div>
+</div>
 
 <div class="bodyContainer">
   <div class="searchBar col-lg-3">
@@ -25,10 +26,11 @@
 
   <div id="showWeather"></div>
 
-  <div class="card col-lg-5">
+  <div class="card">
     <div class="card-header">
       <h2>
         <div class="city"></div>
+        <div id="currentDay"></div>
       </h2>
     </div>
     <div class="card-body">
@@ -51,6 +53,7 @@
         </div>
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="script.js"></script>
 

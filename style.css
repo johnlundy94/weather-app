@@ -1,18 +1,46 @@
 .card {
-    text-align: Center;
+  text-align: Center;
+}
+
+.jumbotron {
+  background-color: blue;
+  color: white;
 }
 
 .searchBar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .col-sm {
-    border-style: solid;
-    margin: 5px;
+  border-style: solid;
+  margin: 5px;
+}
+
+.favorable {
+  background-color: green;
+  color: white;
+}
+
+.moderate {
+  background-color: yellow;
+}
+
+.severe {
+  background-color: red;
+}
+
+.clear {
+  content: f185;
+}
+
+.clouds {
+}
+
+.rain {
 }
