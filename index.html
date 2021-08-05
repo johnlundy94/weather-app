@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="jumbotron bg-dark text-white">
+    <h2 class="text-center">Weather Dashboard<h2>
+        </div>
+
+<div class="bodyContainer">
+  <div class="searchBar col-lg-3">
+  <h2>Search For A City</h2>
+  <input id="city" placeholder="Type a City"></input>
+  <button id="getWeatherForecast">Get Weather!</button>
+  </div>
+  <ul class="searchHistory">
+
+  </ul>
+
+  <div id="showWeather"></div>
+
+  <div class="card col-lg-5">
+    <div class="card-header">
+      <h2>
+        <div class="city"></div>
+      </h2>
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote">
+        <!-- Retrieved data will be dumped here -->
+        <div class="city"></div>
+        <div class="temp"></div>
+        <div class="humidity"></div>
+        <div class="wind"></div>
+        <div class="uv"></div>
+      </blockquote>
+    </div>
+  </div>
+
+    <!-- // display 5-day forcast -->
+    <div class="container">
+        <h3>5-Day Forcast:
+        </h3>
+        <div class="row">
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
