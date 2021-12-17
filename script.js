@@ -126,6 +126,7 @@ $(document).ready(function () {
 
               //stored retrieved Forecast Data
               .then(function (response) {
+                $(".forcast").empty();
                 for (var i = 0; i < 5; i++) {
                   var fiveDayForecast = response.list[i];
 
@@ -143,7 +144,7 @@ $(document).ready(function () {
                   // var nextFiveDays = moment().add(7, "days");
                   // $("#currentDay").text(today.format("dddd, MMMM Do YYYY"));
 
-                  $(".row").append(
+                  $(".forcast").append(
                     "<div class='col-sm 4cast-div'> Forecast: " +
                       forecastWeather +
                       // "<br><br>" +

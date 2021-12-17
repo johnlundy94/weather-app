@@ -10,52 +10,55 @@
 </head>
 
 <body>
-<div class="jumbotron">
+  <div class="jumbotron">
     <h2 class="text-center">Weather Dashboard<h2>
-</div>
-
-<div class="bodyContainer">
-  <div class="searchBar col-lg-3">
-  <h2>Search For A City</h2>
-  <input id="city" placeholder="Type a City"></input>
-  <button id="getWeatherForecast">Get Weather!</button>
-  </div>
-  <ul class="searchHistory">
-
-  </ul>
-
-  <div id="showWeather"></div>
-
-  <div class="card">
-    <div class="card-header">
-      <h2>
-        <div class="city"></div>
-        <div id="currentDay"></div>
-      </h2>
-    </div>
-    <div class="card-body">
-      <blockquote class="blockquote">
-        <!-- Retrieved data will be dumped here -->
-        <div class="city"></div>
-        <div class="temp"></div>
-        <div class="humidity"></div>
-        <div class="wind"></div>
-        <div class="uv"></div>
-      </blockquote>
-    </div>
   </div>
 
-    <!-- // display 5-day forcast -->
-    <div class="container">
-        <h3>5-Day Forcast:
-        </h3>
-        <div class="row">
+  <div class="bodyContainer container">
+    <div class="row">
+      <div class="searchBar col-3">
+        <h2>Search For A City</h2>
+        <input id="city" placeholder="Type a City"></input>
+        <button id="getWeatherForecast">Get Weather!</button>
+
+        <ul class="searchHistory">
+
+        </ul>
+      </div>
+
+      <div class="col-9">
+        <div class="card">
+          <div class="card-header">
+            <h2>
+              <div class="city"></div>
+              <div id="currentDay"></div>
+            </h2>
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote">
+              <!-- Retrieved data will be dumped here -->
+              <div class="city"></div>
+              <div class="temp"></div>
+              <div class="humidity"></div>
+              <div class="wind"></div>
+              <div class="uv"></div>
+            </blockquote>
+          </div>
         </div>
+
+        <!-- // display 5-day forcast -->
+        <div class="container">
+          <h3>5-Day Forcast:
+          </h3>
+          <div class="row forcast">
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="script.js"></script>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
 
 </body>
 

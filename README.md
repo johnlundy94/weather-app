@@ -1,17 +1,42 @@
-#Weather-App
+# Weather App
 
-## Tasks completed
+-[License](#license)
 
-- When a city is searched, the user is presented with current and future conditions and the city is added to search history.
+## Description
 
-- Cities name, the date, temperature, humidity, wind speed and UV index is presented.
+This website was created to give the user up to date information on the weather in their area or in any area around the globe!
 
-- The UV index is color coded to indicate whether the conditions are favorable, moderate, or severe.
+## Table Of Contents
 
-- 5-day forecast displays weather conditions, temperature, humidity, and wind speed.
+- [Description](#description)
+- [Install](#install)
+- [Use](#use)
+- [Contribute](#contribute)
+- [Credits](#credits)
+- [Links](#links)
+- [Screenshot](#screenshot)
 
-- City can be clicked on in the search bar and then the user is presented the future and current conditions.
+## Install
 
-## Link to GitHub
+To use this weather app go to https://johnlundy94.github.io/weather-app/
 
-https://johnlundy94.github.io/weather-app/
+## Use
+
+Type in a city and click on the Get Weather button. This will bring up the current date and time in the city, the tempurature, humidity, wind, a UV index and the five day forcast for that city.
+
+## Contribute
+
+Feel free to email the developer at johnlundy94@gmail.com for any questions, comments, or concerns.
+
+## Credits
+
+Developer: John Lundy Github: https://github.com/johnlundy94 Third Party API: https://openweathermap.org/api/one-call-api
+
+## Links
+
+GitHub: https://github.com/johnlundy94/weather-app
+Deployed Site: https://johnlundy94.github.io/weather-app/
+
+## Screenshot
+
+![Weather App](/assets/weatherapp.PNG)
